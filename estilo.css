@@ -1,0 +1,204 @@
+body{
+    margin: 0px;
+}
+
+/*---> Encabezado <---*/
+#head{
+    background-color: #EDEDED;
+    height: 35px;
+    border: 1px;
+    border-color: #BFBFBF;
+    border-bottom-style:inset;
+}
+
+#html:hover{
+    background-color: #D8D8D8;
+    cursor: pointer;
+}
+#html{
+    position: relative;
+    float: left;
+    height: 29px;
+    width: 54px;
+    top: 2px;
+    left: 480px;
+    background-color:#EDEDED;
+    border: 1px;
+    border-color: #BFBFBF;
+    border-style: solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.textoHead{
+    font-weight:bold;
+    font-family: Arial;
+    font-size: 13px;
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+}
+
+.textoHead2{
+    font-family: Arial;
+    font-size: 13px;
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+}
+
+#css{
+    position: relative;
+    float: left;
+    height: 29px;
+    width: 42px;
+    top: 2px;
+    left: 480px;
+    background-color:#EDEDED ;
+    border: 1px;
+    border-color: #BFBFBF;
+    border-style: solid;
+    
+}
+#css:hover{
+    background-color: #D8D8D8;
+    cursor: pointer;
+    
+}
+
+#javascript{
+    position: relative;
+    float: left;
+    height: 29px;
+    width: 77px;
+    top: 2px;
+    left: 480px;
+    background-color:#EDEDED ;
+    border: 1px;
+    border-color: #BFBFBF;
+    border-style: solid;
+    
+}
+#javascript:hover{
+    background-color: #D8D8D8;
+    cursor: pointer;
+}
+#resultado{
+    position: relative;
+    float: left;
+    height: 29px;
+    width: 77px;
+    top: 2px;
+    left: 480px;
+    background-color:#EDEDED ;
+    border: 1px;
+    border-color: #BFBFBF;
+    border-style: solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#resultado:hover{
+    background-color: #D8D8D8;
+    cursor: pointer;
+}
+
+
+/* Enlace a Página Web */
+#tx{
+    position: relative;
+    float: left;
+    height: 29px;
+    width: 77px;
+    top: 4px;
+    right: 260px;  
+}
+.textoTx{
+    font-family:"Minion Pro";
+    font-size: 13px;
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+    font-weight: 500;
+}
+.textoTx:hover{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none; 
+}
+
+
+
+/* Logotipo*/
+
+#logo{
+    position: relative;
+    float: left;
+    left: 7px;
+    top: 3px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+#logo:hover{
+      opacity: 1;
+}
+
+
+/*---> Cuerpo <---*/
+
+
+#contenedor{
+    background-color: #EDEDED;
+    height: 621px;
+    position: relative;
+    }
+#imagenFondo{
+    position: relative;
+    left: 490px;
+    top: 130px;
+    opacity: 0.8;
+    display: block;
+    
+}
+
+
+#codigoHtml{
+    background-color: #6E6E6E;
+    resize:none;
+    width: 355px;
+    color: white;
+    position: relative;
+    float: left;
+    display: none;
+}
+#codigoCss{
+    background-color: #CEF6F5;
+    position: relative;
+    width: 300px;
+    height: 621px;
+    float: left;
+    display: none;
+    resize:none;
+    color: palevioletred;
+}
+#codigoJavascript{
+    background-color: #F2F5A9;
+    position: relative;
+    width: 345px;
+    height: 621px;
+    float: left;
+    display: none;
+    resize:none;
+    color: green;
+}
+
+#codigoResultado{
+    background-color:cornsilk;
+    position: relative;
+    width: 331px;
+    height: 621px;
+    float: left;
+    display: none;
+    border: 1px;
+}

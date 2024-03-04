@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Reproductor de Código</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css" />
+        <link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
+        
+        <script src="jquery.min.js"></script>
+        <script src="jquery-ui/jquery-ui.js"></script>
+        
+    </head>
+    <body>
+      <div id="head">
+        <img src="imagenes/logo.png" width="45px" height="30px" id="logo" title="Recargar">
+        
+        <div id="html" class="header"><p class="textoHead">HTML</p></div>
+        <div id="css" class="header"><p class="textoHead2">CSS</p></div>
+        <div id="javascript" class="header"><p class="textoHead2">Javascript</p></div>
+        <div id="resultado" class="header"><p class="textoHead2">Resultado</p></div>
+        <div id="tx">
+            <a href="https://ericktequiz.tech" title="Visitar"><p class="textoTx">Tx Projects</p></a>
+              
+        </div>
+          
+          </div>
+          <div id="contenedor">
+          <img src="imagenes/logo.png" height="280" width="365" id="imagenFondo" />
+        <textarea id="codigoHtml">
+<p>Este es un código de muestra</p>
+            
+<h1>Hola</h1>
+            
+<h3>Erick Bernardo Téquiz Merchán</h3>
+
+<button id="botoncito">Dale Click</button>
+              </textarea>
+              
+          <textarea id="codigoCss">
+p{
+  color: green;
+              }
+h3{
+     color:orange;
+}
+            </textarea>
+          <textarea id="codigoJavascript">
+var boton = document.getElementById("botoncito");
+
+boton.addEventListener("click", saludar);
+
+
+
+function saludar()
+{
+alert("Hey!!")
+
+}
+              </textarea>
+          <iframe id="codigoResultado"></iframe>
+          </div>
+        <script type="text/javascript" src="accion.js"></script>
+    </body>
+
+</html>
